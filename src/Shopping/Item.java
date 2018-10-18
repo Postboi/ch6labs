@@ -1,8 +1,8 @@
 package Shopping;
 /**
- * Name:
- * Date:
- * Period:
+ * Name: Trey Driggs
+ * Date: 10/18/18
+ * Period: 1
  *
  * Shopping.Item.java
  *

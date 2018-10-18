@@ -17,7 +17,9 @@ public class ShoppingCart
     private int itemCount;      // total number of items in the cart
     private double totalPrice;  // total price of items in the cart
     private int capacity;       // current cart capacity
+    private int[] cart;
     //TODO 1a) Declare a cart instance variable
+
 
 
     /**
@@ -29,6 +31,7 @@ public class ShoppingCart
         itemCount = 0;
         totalPrice = 0.0;
         //TODO 1a) Initialize the cart instance variable to the appropriate size
+        cart = new item[capacity];
 
     }
 
