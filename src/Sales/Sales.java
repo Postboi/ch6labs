@@ -76,7 +76,7 @@ public class Sales
             averageNum += x;
         }
 
-        return (averageNum/arr.length);
+        return (averageNum/((double)arr.length));
     }
 
     public static int indexOfMax(int[] arr)

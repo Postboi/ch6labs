@@ -1,9 +1,9 @@
 package Shopping;
 
 /**
- * Name:
- * Date:
- * Period:
+ * Name: Trey Driggs
+ * Date: 10/25/18
+ * Period: 1
  *
  * Shopping.ShoppingCart.java
  *
@@ -47,6 +47,8 @@ public class ShoppingCart
             this.itemCount++;
             this.totalPrice += (price * quantity);
         }
+        else
+            System.out.println("You don't have enough space ");
         for(int i = 0; i < cart.length; i++) {
             if(cart[i] == null) {
                 cart[i] = new Item(itemName, price, quantity);
